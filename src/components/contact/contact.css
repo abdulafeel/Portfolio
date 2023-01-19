@@ -1,7 +1,7 @@
 .container.contact__container {
-    width: 58%;
+    width: 65%;
     display: grid;
-    grid-template-columns: 30% 58%;
+    grid-template-columns: 20% 48% 20%;
     gap: 12%;
 }
 
@@ -36,6 +36,17 @@
     font-size: 0.8rem;
 }
 
+.contact__image {
+    width: 100%;
+    transition: var(--transition);
+
+}
+
+.contact__image:hover{
+    transform: rotateY(50deg);
+
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -58,13 +69,20 @@ input,textarea {
     grid-template-columns: 1fr;
     gap: 2rem;
    }
+   .contact__image {
+    width: 50%;
+    margin: 2rem auto 4rem;
+}
         }
         
         @media screen and (max-width:600px) {
             .container.contact__container{
                 width: var(--container-width-sm);
                }
-
+.contact__image {
+    width: 60%;
+        margin: 0 auto 3rem;
+}
            
         }   
 

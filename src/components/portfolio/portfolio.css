@@ -22,12 +22,19 @@
     overflow: hidden;
 }
 
+.portfolio__item-image > img{
+    height: 250px;
+    object-fit:contain;
+}
+
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
+    text-align: center;
 }
 
 .portfolio__item-cta{
     display: flex;
+    justify-content:center;
     gap: 1rem;
     margin-bottom: 1rem;
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri' 
-import {BsWhatsapp} from 'react-icons/bs' 
 import {SiLinkedin} from 'react-icons/si'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import ME from '../../../src//assets/contact.png'
+
 
 const Contact = () => {
   const form =useRef()
@@ -36,8 +36,11 @@ const Contact = () => {
             <h5>abdulafeel</h5>
             <a href="https://linkedin.com/in/abdulafeel" target='_blank'>Connect</a>
           </article>
+         
         
         </div>
+       
+    
 
         <form   ref={form} onSubmit={sendEmail} action="">
           <input type="text" name='name' placeholder='Your Full Name' required />
@@ -45,7 +48,14 @@ const Contact = () => {
           <textarea name="message" placeholder='Your Message' rows="7" required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
-      </div>
+ <div className='contact__image'>
+        <article>
+            <img src={ME} alt="Contact" />
+            </article>
+            </div>
+            </div>
+  
+   
     </section>
   )
 }
