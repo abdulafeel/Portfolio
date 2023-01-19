@@ -7,7 +7,7 @@
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
+    border-radius: 20rem;
     background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
     display: grid;
     place-items: center;
@@ -58,6 +58,8 @@ gap: 1.5rem;
 .about__card small {
     font-size: 0.7rem;
     color: var(--color-light);
+    display: inline-block ;
+    margin-top: 0.5rem;
 }
 
 .about__content p {
