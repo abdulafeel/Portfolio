@@ -48,6 +48,9 @@ position: relative;
 
 }
 
+me__image{
+    left: 200px;
+}
 
 .me:hover{
     animation: shake 0.5s;

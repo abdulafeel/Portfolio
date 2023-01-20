@@ -72,7 +72,7 @@ const Portfolio = () => {
           <h3>Goals App</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/abdulafeel/Goals-App/tree/master" className='btn' target='_blank'>Github</a>
-            {/* <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a> */}
+            <a href="https://expo.dev/@abdulafeel/goals-app" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>        
         </article>  
         <article className='portfolio__item'>
@@ -82,7 +82,7 @@ const Portfolio = () => {
           <h3>Guess My Number Game</h3>
           <div className="portfolio__item-cta">
           <a href=" https://github.com/abdulafeel/Guess_My_Number-Game" className='btn' target='_blank'>Github</a>
-            {/* <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a> */}
+            <a href="https://expo.dev/@abdulafeel/guess-no-game" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>        
         </article> 
 
