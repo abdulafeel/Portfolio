@@ -37,10 +37,7 @@ const About = () => {
               </article>
             </div>
            
-            <p>Software Developer with 1 plus years of experience in the Retail and E-commerce domain. Extensive 
-mobile (iOS, Android & Hybrid) application development experience with strong knowledge of
-various programming languages including React Native, Node.JS, JavaScript. Specialized in 
-delivering mobile apps and enterprise-class software solutions for big systems.</p>
+            <p>Passionate about leveraging technology to drive innovation and create impactful solutions, I am a skilled Full Stack Developer having 1+ years of experience in web and mobile application development. With a strong foundation in JavaScript, React.js, Node.js, and React Native, I thrive on building seamless user experiences and solving complex challenges.</p>
          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           </div>
 
